@@ -1,8 +1,10 @@
 # action.yml
 name: '.NetFramework Action Template'
 description: 'Template for .Net Framework Action'
-icon: 'book-open'
-color: 'blue'
+author: 'Gumpanat Keardkeawfa <https://github.com/auycro>'
+branding:
+  icon: 'x'
+  color: 'red'
 runs:
   using: 'docker'
   image: 'Dockerfile'
