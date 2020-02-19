@@ -1,0 +1,20 @@
+name: "Main Workflow"
+
+on:
+  push:
+    branches: 
+      - master
+      - releases/* 
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag auycro/dotnet
+        #run: docker build . --file Dockerfile --tag auycro/dotnet:$(date +%s)
+      - name: Run the Docker image
+        run: docker run --rm auycro/dotnet --version
+          
