@@ -1,7 +1,8 @@
 # action.yml
 name: '.NetFramework Action Template'
 description: 'Template for .Net Framework Action'
-
+icon: 'book-open'
+color: 'blue'
 runs:
   using: 'docker'
   image: 'Dockerfile'
