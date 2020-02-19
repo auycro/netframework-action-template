@@ -1,0 +1,7 @@
+# action.yml
+name: '.NetFramework Action Template'
+description: 'Template for .Net Framework Action'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

@@ -4,7 +4,11 @@ This repository offers a template to build a [GitHub Action](https://developer.g
 
 🚧 work in progress 🚧
 
-## references
+## Example usage
+
+uses: auycro/netframework-action-template
+
+## References
 
 https://github.com/microsoft/dotnet-framework-docker
 
