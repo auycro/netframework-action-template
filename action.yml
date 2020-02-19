@@ -3,8 +3,8 @@ name: '.NetFramework Action Template'
 description: 'Template for .Net Framework Action'
 author: 'Gumpanat Keardkeawfa <https://github.com/auycro>'
 branding:
-  icon: 'x'
-  color: 'red'
+  icon: 'book-open'
+  color: 'blue'
 runs:
   using: 'docker'
   image: 'Dockerfile'
