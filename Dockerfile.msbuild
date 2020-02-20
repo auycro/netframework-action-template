@@ -4,5 +4,6 @@ WORKDIR /app
 
 COPY SampleApp/ .
 RUN nuget restore .
-RUN msbuild /p:Configuration=Release /p:OutputPath=C:\app\out\;
+RUN msbuild /p:Configuration=Release /p:OutputPath=C:\app\out\
+
 ENTRYPOINT ["/app/out/ConsoleApp.exe"]
