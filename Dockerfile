@@ -5,4 +5,4 @@ WORKDIR /app
 COPY SampleApp/ .
 RUN dotnet restore
 RUN dotnet build -c Release -o out
-ENTRYPOINT ["/app/out/SampleApp.exe"]
+ENTRYPOINT ["/app/out/ConsoleApp.exe"]
